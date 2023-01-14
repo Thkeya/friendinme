@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/1e07887c77.js" crossorigin="anonymous"></script> 
+    <title>Contact Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top-navigation">
+          <div class="top-navigation-left">
+            <img src="./assets/Coaching logo.jpeg" alt="" class="img_logo" />
+            <div class="top-navigation-links">
+              <a href="index.html">Home</a>
+              <a href="coaching.html">Coaching</a>
+              <a href="reviews.html">Reviews</a>
+            </div>
+          </div>
+          <div class="top-navigation-right">
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="register.html">Register</a>
+          </div>
+        </div>
+        
+         <h1>Contact Us</h1>
+         <div class="contact-box">
+            <div class="contact-left">
+              <h3>Provide Your Information</h3>
+              <form>
+
+                <div class="input-row">
+                  <div class="input-group">
+                    <label>First Name</label>
+                    <input type="text" name="fname" id="fname" placeholder = "First Name" required>
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <label>Last Name</label>
+                    <input type="text" name="lname" id="lname" placeholder = "Last Name" required>
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="name@email.com" required>
+                  </div>
+                  <br>
+                </div>
+          
+            <label>Message</label>
+            <textarea placeholder="Your Message" rows="5"required></textarea>
+            <br><br>
+            <label>Priority</label>
+            <select id="priority" required>
+                <option value=""></option>
+                <option value="None">None</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+            <br><br><br>
+            <button>Submit</button>
+              </form>
+
+            </div>
+          <div class="contact-right">
+            <h3>Reach Us</h3>
+
+            <table>
+              <tr>
+                <td>Email</td>
+                <td>info@friendinme.com</td>
+              </tr>
+              <tr>
+                <td>Phone</td>
+                <td>1-800-FRIEND1</td>
+              </tr>
+              <tr>
+                <td>Address</td>
+                <td>123 Anytown Avenue <br> 
+                  Anytown, USA 12345</td>
+              </tr>
+            </table>
+            <br><br><br><br><br>
+            <p>"A friend in me is a friend indeed" - Thkeya Smith Owner/Life Coach</p>
+
+          </div>
+         
+         </div>
+
+    <br><br><br><br>
+    <footer class="absolute_footer">
+        <ul>
+      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+       <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+       <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      </ul>
+       <p><small>&copy; Copyright 2023, Friend in Me Life Coaching</p></small>
+        <p>We use cookies to give you the best user experience. By continuing, you agree with this policy.</p>
+        <button>Accept</button>
+    </footer>
+    </div>
+</body>
+</html>
